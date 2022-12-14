@@ -1,16 +1,18 @@
 # news_list_flutter
 
-A new Flutter project.
+A new Flutter project that uses dio and cubit to display data from api on text field and listview.
 
-## Getting Started
+## Tools Used
 
-This project is a starting point for a Flutter application.
+### Dependencies
+- [flutter_bloc:](https://pub.dev/packages/flutter_bloc) for cubit mvvm pattern
+- [dio:](https://pub.dev/packages/dio) for api consumtion
+- [intl:](https://pub.dev/packages/intl) for formatting iso date 
 
-A few resources to get you started if this is your first Flutter project:
+### Resource used
+- [Sample Api:](https://newsapi.org/) used for sample api endpoint to consume as Get Method
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Sample Image
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+![Simulator Screen Shot - iPhone 14 Pro Max - 2022-12-15 at 03 21 43](https://user-images.githubusercontent.com/87701847/207693592-196db6f0-07b3-44a1-9ea9-7c20c441abbe.png)
